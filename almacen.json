@@ -1,24 +1,10 @@
 {
-  "mascotas": [
-    {
-      "id": "1",
-      "nombre": "Princesa",
-      "tipo": "Perrita regalona",
-      "color": "rosado"
-    },
-    {
-      "id": "2",
-      "nombre": "León",
-      "tipo": "Perro",
-      "color": "blanco"
-    }
-  ],
   "usuarios": [
     {
       "id": "1",
-      "username": "usuario1",
+      "username": "usuario123",
+      "email": "usuario123@mail.cl",
       "password": "duoc1234",
-      "email": "usuario1@mail.cl",
       "isactive": true
     },
     {
@@ -27,20 +13,100 @@
       "password": "maipu1234",
       "email": "usuario2@mail.cl",
       "isactive": true
-    }
-  ],
-  "qr": [
-    {
-      "id": "745f",
-      "nomMascota": "León",
-      "tipoMascota": "Perro",
-      "username": "usuario1"
     },
     {
-      "id": "800c",
-      "nomMascota": "Princesa",
-      "tipoMascota": "Perrita regalona",
-      "username": "usuario1"
+      "id": "f87f",
+      "username": "darosh",
+      "password": "duoc1234",
+      "email": "darosh@gmail.com",
+      "isactive": true
+    },
+    {
+      "id": "c18e",
+      "username": "isacpaz",
+      "password": "duoc1234",
+      "email": "isac@gmail.com",
+      "isactive": true
+    },
+    {
+      "id": "9e32",
+      "username": "pablos",
+      "password": "duoc1234",
+      "email": "pablo@gmail.com",
+      "isactive": true
+    },
+    {
+      "id": "018c",
+      "username": "pablobo",
+      "password": "duoc1234",
+      "email": "pablobo@gmail.com",
+      "isactive": true
+    },
+    {
+      "id": "49e1",
+      "username": "admin1234",
+      "email": "admin1234@gmail.com",
+      "password": "duoc12345",
+      "isactive": true
+    },
+    {
+      "id": "ebb6",
+      "username": "daroshlucofuentes",
+      "email": "daroshlucofuentes@duocuc.cl",
+      "password": "duoc12345",
+      "isactive": true
+    }
+  ],
+  "productos": [
+    {
+      "id": "1",
+      "nombre": "Audífonos KZ PR1 PRO - Con MIC Negro",
+      "tipo": "audifono",
+      "color": "negro",
+      "imagen": "assets/kz1producto1.avif"
+    },
+    {
+      "id": "2",
+      "nombre": "Audífonos KZ ZSN PRO X in ear con MIC Negro",
+      "tipo": "audifono",
+      "color": "negro",
+      "imagen": "assets/kz1producto2.avif"
+    },
+    {
+      "id": "3",
+      "nombre": "Audífonos KZ ZST in ear con MIC Púrpura",
+      "tipo": "audifono",
+      "color": "púrpura",
+      "imagen": "assets/kz1producto3.avif"
+    },
+    {
+      "id": "a95c",
+      "nombre": "KZ1 DE PRUEBA",
+      "tipo": "KZ1 DE PRUEBA",
+      "color": "KZ1 DE PRUEBA",
+      "imagen": "assets/kz1producto2.avif"
+    },
+    {
+      "id": "8e35",
+      "nombre": "pp",
+      "tipo": "tt",
+      "color": "violet",
+      "imagen": "assets/kz1producto3.avif"
+    },
+    {
+      "id": "bff0",
+      "nombre": "tt",
+      "tipo": "tt",
+      "color": "tt",
+      "imagen": "assets/kz1producto2.avif"
+    }
+  ],
+  "purchases": [
+    {
+      "id": "0431",
+      "productId": "3",
+      "userId": "darosh",
+      "purchaseDate": "2024-10-23T15:33:46.168Z"
     }
   ]
 }
